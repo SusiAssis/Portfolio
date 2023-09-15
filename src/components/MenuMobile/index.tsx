@@ -1,4 +1,4 @@
-import Container from "./style";
+import { Container } from "./style";
 import { IoClose } from "react-icons/io5";
 
 const MenuMobile = ({ menuIsVisible, setMenuIsVisible }: any) => {

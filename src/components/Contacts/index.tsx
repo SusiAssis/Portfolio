@@ -13,7 +13,7 @@ const Contacts = () => {
       <div className="contanier_contacts">
         <h1>Meus Contatos</h1>
         <div className="contanier_section">
-          <section className="contanier_image">
+          <section className="imagem_section">
             <div className="contanier_icons">
               <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
                 <BiLogoGmail style={{ color: "#ffffff" }} size={30} />

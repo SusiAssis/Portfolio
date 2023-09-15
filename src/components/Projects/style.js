@@ -55,7 +55,7 @@ const ProjectsStyle = styled.div`
 
   ::-webkit-scrollbar-thumb {
     background-color: #001d53; /* Cor da thumb (a barra de arrastar) */
-    border-radius: 4px; /* Arredondamento da thumb */
+    border-radius: 3px; /* Arredondamento da thumb */
   }
 `;
 export default ProjectsStyle;

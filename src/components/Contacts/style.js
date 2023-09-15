@@ -27,9 +27,10 @@ const ContactsStyle = styled.div`
     gap: 1em;
   }
 
-  .contanier_image {
+  .imagem_section {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -40,6 +41,7 @@ const ContactsStyle = styled.div`
 
   .contanier_icons {
     display: flex;
+    justify-content: center;
     gap: 1em;
   }
 
@@ -80,6 +82,44 @@ const ContactsStyle = styled.div`
     font-family: cursive;
     font-weight: 500;
     font-size: 15px;
+  }
+
+  @media (max-width: 750px) {
+    padding: 3em 1em;
+
+    .contanier_section {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+
+    .imagem_section {
+      width: 100%;
+      img {
+        width: 290px;
+        height: 250px;
+      }
+    }
+
+    section {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    form {
+      width: 100%;
+    }
+
+    .section_text {
+      min-width: 310px;
+      padding: 1em;
+      gap: 1em;
+    }
   }
 `;
 export default ContactsStyle;

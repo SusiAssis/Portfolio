@@ -1,9 +1,12 @@
 "use client";
-import styled, { CSSObject } from "styled-components";
-import css from "styled-jsx/css";
+import styled from "styled-components";
 
-const Container = styled.div`
-  position: absolute;
+interface ContainerProps {
+  isVisible: boolean;
+}
+
+const Container = styled.div<ContainerProps>`
+  position: fixed;
   width: 50%;
   height: 100%;
   z-index: 5;
@@ -37,10 +40,6 @@ const Container = styled.div`
     text-decoration: none;
   }
 
-  ${({ isVisible }) =>
-    isVisible &&
-    css`
-      display: flex;
-    `}
+  display: ${({ isVisible }) => (isVisible ? "flex" : "none")};
 `;
-export default Container;
+export { Container };
