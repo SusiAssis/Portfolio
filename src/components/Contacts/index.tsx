@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ContactsStyle from "./style";
-import Contato from "../../../public/contato.jpg";
+import Contato from "../../assets/contato.jpg";
 import {
   BiLogoGmail,
   BiLogoWhatsapp,
@@ -39,7 +39,8 @@ const Contacts = () => {
               width={430}
               height={320}
               src={Contato}
-              alt="imagem contato"
+              alt={"imagem contato"}
+              priority={true}
             />
           </section>
           <section>
