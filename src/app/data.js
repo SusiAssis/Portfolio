@@ -1,7 +1,7 @@
 const projectData = [
   {
     title: "Nu Kenzie",
-    thumbnail: "/projects imagens/NuKenzie.jpg", // Substitua pelo caminho da miniatura do Projeto 1
+    thumbnail: "/NuKenzie.jpg", // Substitua pelo caminho da miniatura do Projeto 1
     link: "https://react-entrega-s1-template-nu-kenzie-susi-assis-theta.vercel.app/",
   },
   {
