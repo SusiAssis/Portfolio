@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ContactsStyle from "./style";
-import Contato from "../../assets/contato.jpg";
+import Contato from "/contato.jpg";
 import {
   BiLogoGmail,
   BiLogoWhatsapp,
