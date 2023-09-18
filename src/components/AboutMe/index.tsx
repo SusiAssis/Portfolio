@@ -9,8 +9,8 @@ const AboutMe = () => {
           <Image
             width={400}
             height={400}
-            src="/../public/programation.jpg"
-            alt="my photo"
+            src="/programation.jpg"
+            alt="programation"
             className="imagem_section"
           />
         </section>
