@@ -1,6 +1,5 @@
 import Image from "next/image";
 import ContactsStyle from "./style";
-import Contato from "/contato.jpg";
 import {
   BiLogoGmail,
   BiLogoWhatsapp,
@@ -38,7 +37,7 @@ const Contacts = () => {
             <Image
               width={430}
               height={320}
-              src={Contato}
+              src="/contato.jpg"
               alt={"imagem contato"}
               priority={true}
             />
