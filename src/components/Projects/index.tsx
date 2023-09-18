@@ -17,9 +17,22 @@ const Projects = () => {
                 src={project.thumbnail}
                 alt={project.title}
               />
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
-                Ver projeto
-              </a>
+              <div className="contanier_links">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver projeto
+                </a>
+                <a
+                  href={project.repo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Repositório
+                </a>
+              </div>
             </li>
           ))}
         </ul>

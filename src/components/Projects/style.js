@@ -37,6 +37,12 @@ const ProjectsStyle = styled.div`
     gap: 1em;
     align-items: center;
 
+    .contanier_links {
+      width: 100%;
+      display: flex;
+      gap: 1.5em;
+    }
+
     a {
       text-decoration: none;
       background-color: #001d53;
