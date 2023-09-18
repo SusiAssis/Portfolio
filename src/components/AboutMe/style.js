@@ -6,7 +6,7 @@ const AbountMeStyled = styled.div`
   color: #eaebff;
   width: 100%;
   height: auto;
-  padding: 3em 2em;
+  padding: 8em 2em;
 
   .contanier_sections {
     margin: 0 auto;

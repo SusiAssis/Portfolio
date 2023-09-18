@@ -1,12 +1,18 @@
 import Image from "next/image";
-import AbountMeStyled from './style';
+import AbountMeStyled from "./style";
 
 const AboutMe = () => {
   return (
-    <AbountMeStyled>
+    <AbountMeStyled id="about">
       <div className="contanier_sections">
         <section>
-          <Image width={400} height={400} src="/../public/programation.jpg" alt="my photo" className="imagem_section" />
+          <Image
+            width={400}
+            height={400}
+            src="/../public/programation.jpg"
+            alt="my photo"
+            className="imagem_section"
+          />
         </section>
         <section className="section_text">
           <h1>Sobre mim</h1>

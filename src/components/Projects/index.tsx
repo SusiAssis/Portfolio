@@ -4,7 +4,7 @@ import ProjectsStyle from "./style";
 
 const Projects = () => {
   return (
-    <ProjectsStyle>
+    <ProjectsStyle id="projects">
       <div className="contanier_project">
         <h1>Meus Projetos</h1>
         <ul>

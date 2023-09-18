@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Beginning = () => {
     return (
-       <HomeStyle>
+       <HomeStyle id="home">
        <div className="contanier_sections">
         <section className="contanier_text">
             <div className="text_world"><h1>BEM-VINDO AO MEU MUNDO</h1> <BiWorld style={{ color: '#001D53' }} size={30} className='world'/></div>
@@ -15,7 +15,7 @@ const Beginning = () => {
             <Link href="/../SUSILANE ASSIS.pdf" target="_blank" download={true}>Meu Curriculo <BiDownload style={{ color: '#001D53' }} size={25}/></Link>
         </section>
         <section className="contanier_image">
-            <Image width={400} height={400} src="/../public/myPhoto.jpg" alt="my photo" className="imagem_section" />
+            <Image width={400} height={400} src="/myPhoto.jpg" alt="my photo" className="imagem_section" />
             <div className="purple"></div>
         </section>
        </div>
